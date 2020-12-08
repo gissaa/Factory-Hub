@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './components/Shared/Navbar'
+import Navbar from './components/Shared/Navbar/Navbar'
+import Footer from './components/Shared/Footer/Footer'
 import Home from './pages/Home'
-import Deneme from './components/HomePage/Deneme'
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
         <Navbar/>
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route path ="/deneme" component={Deneme}/>
         </Switch>
+        <Footer/>
       </Router>
     </div>
   )

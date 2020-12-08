@@ -1,11 +1,10 @@
 import React from 'react'
-import Slider from '../components/HomePage/Slider'
+import Slider from '../components/HomePage/Slider/Slider'
 import Box from '../components/HomePage/Box/Box'
-import Card from '../components/HomePage/Card'
-import News from '../components/HomePage/News'
-import IconMenu from '../components/HomePage/IconMenu'
-import Partner from '../components/Shared/Partner'
-import Footer from '../components/Shared/Footer'
+import Card from '../components/HomePage/Card/Card'
+import News from '../components/HomePage/News/News'
+import IconMenu from '../components/HomePage/IconMenu/IconMenu'
+import Partner from '../components/Shared/Partner/Partner'
 function Home() {
 	return (
 		<div>
@@ -15,7 +14,6 @@ function Home() {
 			<News/>
 			<IconMenu/>
 			<Partner/>
-			<Footer/>
 		</div>
 	)
 }
