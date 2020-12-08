@@ -100,7 +100,8 @@ function Slider() {
 							data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]"
 							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"							style={{
+							data-paddingleft="[0,0,0,0]"
+							style={{
 								zIndex: '5',
 								display: 'block',
 								whiteSpace: 'nowrap',

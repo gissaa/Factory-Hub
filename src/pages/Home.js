@@ -8,6 +8,7 @@ import Partner from '../components/Shared/Partner/Partner'
 function Home() {
 	return (
 		<div>
+			
 			<Slider/>
 			<Box/>
 			<Card/>
