@@ -5,7 +5,7 @@ function CardItem(props) {
 			<div class="item-service col-xs-12 col-sm-6 col-md-4">
 				<div class="service-content">
 					<div class="entry-thumbnail">
-						<div class="overlay" style={{ backgroundColor: 'rgba(255,200,17,0.8)' }} />
+						<div class="overlay" style={{ backgroundColor: 'rgba(172, 24, 120,0.4)' }} />
 						<a href="#" />
 						<img src={props.image} alt={props.title} />
 					</div>

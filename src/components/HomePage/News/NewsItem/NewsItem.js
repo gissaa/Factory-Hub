@@ -1,5 +1,4 @@
 import React from 'react';
-
 function NewsItem(props) {
 	return (
 		<div class="item-project">
